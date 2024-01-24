@@ -25,7 +25,7 @@ public class extent
 		System.setProperty("webdriver.http.factory", "jdk-http-client");	
 		driver = new ChromeDriver();
         extent = extentmanager.getInstance();
-        test = extent.createTest("MyTest", "Description of MyTest");
+        test = extent.createTest("Login", "Excel");
     }
 
     @Test

@@ -15,9 +15,9 @@ import javax.swing.SwingUtilities;
 class SnakeGame3D extends JFrame {
     private static final long serialVersionUID = 1L;
 
-    private static final int GRID_SIZE = 50;
-    private static final int TILE_SIZE = 30;
-    private static final int GAME_SPEED = 100;
+    private static final int GRID_SIZE = 40;
+    private static final int TILE_SIZE = 20;
+    private static final int GAME_SPEED = 80;
 
     private LinkedList<Point> snake;
     private Point food;
